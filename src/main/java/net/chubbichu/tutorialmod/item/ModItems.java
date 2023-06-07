@@ -13,6 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
     public static final RegistryObject<Item>ZIRCON = ITEMS.register("zircon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item>RAW_ZIRCON = ITEMS.register("raw_zircon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item>OBSIDIAN_GREATSWORD = ITEMS.register("obsidian_greatsword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
